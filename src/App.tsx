@@ -23,6 +23,7 @@ import FAQ from "./components/FAQ";
 import RecipeExplorer from "./components/RecipeExplorer";
 import ReviewList from "./components/ReviewList";
 import CheckoutModal from "./components/CheckoutModal";
+import cookbookMockup from "./assets/images/cookbook_mockup_1781633443010.jpg";
 
 // Interactive custom notification simulation
 const SOCIAL_PROOF_MESSAGES = [
@@ -246,7 +247,7 @@ export default function App() {
                 {/* Double boundary detail inside the cover placeholder to represent luxury edition */}
                 <div className="border border-double border-gray-300 rounded p-1.5 bg-white">
                   <img
-                    src="/src/assets/images/cookbook_mockup_1781633443010.jpg"
+                    src={cookbookMockup}
                     alt="Recetario Premium GLP-1 Portada 3D Mockup"
                     referrerPolicy="no-referrer"
                     className="rounded shadow-md border border-gray-100 transform transition-transform group-hover:scale-[1.01] relative"
