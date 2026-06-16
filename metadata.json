@@ -1,0 +1,6 @@
+{
+  "name": "Recetario Premium GLP-1",
+  "description": "Landing page de alta conversión para el Recetario Premium GLP-1, optimizado para conversión directa y dispositivos móviles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

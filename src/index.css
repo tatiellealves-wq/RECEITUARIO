@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-poppins: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --color-brand-green-dark: #355E2D;
+  --color-brand-green-vibrant: #00C853;
+  --color-brand-gold: #D4AF37;
+  --color-brand-gray-dark: #1A1A1A;
+  --color-brand-gray-light: #F8F9FA;
+}
+
+body {
+  font-family: var(--font-poppins);
+  background-color: #F3F4F6; /* Muted modern dashboard background for grid lines to pop elegantly */
+  color: #1A1A1A;
+  overflow-x: hidden;
+}
+
+/* High Density Custom Rules */
+:root {
+  --green-dark: #355E2D;
+  --green-vibrant: #00C853;
+  --gold: #D4AF37;
+  --gray-soft: #F8F9FA;
+  --gray-ink: #1A1A1A;
+  --white: #FFFFFF;
+}
+
+.title-bold {
+  font-weight: 700;
+  color: #355E2D;
+}
+
+.btn-cta-custom {
+  background-color: #00C853;
+  color: #FFFFFF;
+  font-weight: 700;
+  border-radius: 6px;
+  transition: opacity 0.2s, background-color 0.2s;
+}
+
+.gold-border-custom {
+  border: 1px solid #D4AF37;
+}
+
+.double-border-accent {
+  border: 3px double #355E2D;
+}
+
+.shadow-soft {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+}
+
